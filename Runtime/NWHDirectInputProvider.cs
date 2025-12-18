@@ -256,8 +256,8 @@ namespace DirectInputManager.NWHIntegration
                 case 3: return state.lRx;
                 case 4: return state.lRy;
                 case 5: return state.lRz;
-                case 6: return state.rglSlider[0];
-                case 7: return state.rglSlider[1];
+                case 6: return state.lU;
+                case 7: return state.lV;
                 default: return 32767;
             }
         }

@@ -119,7 +119,7 @@ namespace DirectInputManager.Examples
                 CheckAxis(currentState.lRx, prevState.lRx, 3, guid, info);
                 CheckAxis(currentState.lRy, prevState.lRy, 4, guid, info);
                 CheckAxis(currentState.lRz, prevState.lRz, 5, guid, info); 
-                CheckAxis(currentState.rglSlider[0], prevState.rglSlider[0], 6, guid, info); // Slider 0
+                CheckAxis(currentState.lU, prevState.lU, 6, guid, info); // Slider 0
                 
                 if (!isBinding) return; // Exit if bound inside CheckAxis
             }
